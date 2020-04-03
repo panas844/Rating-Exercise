@@ -1,0 +1,24 @@
+/* .checked {
+    color: orange;
+  } */
+
+  /* span:hover {
+    color: gold;
+
+} */
+.icon-star {
+  color: black;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+}
+
+.container {
+  background-color:pink;
+}
+
+html {
+  height: 100%;
+}
