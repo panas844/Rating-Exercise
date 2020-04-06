@@ -5,7 +5,7 @@ console.log("start")
 function functionHover(x){
     var index = ""
     x.style.color = "red";
-    var elements = document.getElementsByClassName("icon-star")
+    var elements = document.getElementsByClassName("fa-star")
 for(var i =0;i<elements.length;i++){
     // console.log(i+elements[i].style.color) 
    if(elements[i].style.color=="red"){
@@ -14,7 +14,7 @@ for(var i =0;i<elements.length;i++){
 }
 
 for(var i =0;i<index;i++){
-    document.getElementsByClassName("icon-star")[i].style.color = "red"
+    document.getElementsByClassName("fa-star")[i].style.color = "red"
 }
 
 for(var i =0;i<elements.length;i++){
@@ -27,7 +27,7 @@ for(var i =0;i<elements.length;i++){
 // No hover Stars return black
 
 function functionOut(x){
-    var elements = document.getElementsByClassName("icon-star")
+    var elements = document.getElementsByClassName("fa-star")
     for(var i =0;i<elements.length;i++){
         if(elements[i].style.color!="green"){
         elements[i].style.color= "black"}
@@ -37,7 +37,7 @@ function functionOut(x){
 
 // Click Action for Stars-Green Color
 function functionClick(x){
-    var elements = document.getElementsByClassName("icon-star")
+    var elements = document.getElementsByClassName("fa-star")
     var index = ""
     event.stopPropagation();
     for(var i =0;i<elements.length;i++){
@@ -53,7 +53,7 @@ function functionClick(x){
     }
 
     for(var i =0;i<index;i++){
-        document.getElementsByClassName("icon-star")[i].style.color = "green"
+        document.getElementsByClassName("fa-star")[i].style.color = "green"
     
     }
 
@@ -62,7 +62,7 @@ function functionClick(x){
 document.getElementById("paok").onclick=function(){
 
     for(let i=0;i<5;i++){
-        document.getElementsByClassName("icon-star")[i].style.color="black"
+        document.getElementsByClassName("fa-star")[i].style.color="black"
     }
     }
 
